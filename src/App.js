@@ -2,7 +2,6 @@ import "./App.css";
 import Card from "./Cards/Card";
 import Hero from "./Hero/Hero";
 import Home from "./Home/Home";
-
 import Product from "./Products/Product";
 import Footer from "./footer/Footer";
 

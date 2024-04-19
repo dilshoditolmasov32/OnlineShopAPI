@@ -27,13 +27,12 @@ const Card = () => {
     },
   ];
 
-  const ListData = data?.map(
-    (value, index) => console.log(value.bg)
-    // <div className="card" key={value.id} style={{ backgroundImage: value.bg }}>
-    //   <h4 className="title">{value.title}</h4>
-    //   <button className="card-btn">{value.btnText}</button>
-    // </div>
-  );
+  const ListData = data?.map((value, index) => (
+    <div className="card" key={value.id}>
+      <h4 className="title">{value.title}</h4>
+      <button className="card-btn">{value.btnText}</button>
+    </div>
+  ));
   return (
     <div className="container">
       <div className="cards">{ListData}</div>
