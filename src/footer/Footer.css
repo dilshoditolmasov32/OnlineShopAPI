@@ -21,6 +21,15 @@
   margin-left: 50px;
 }
 
+.page__footer a {
+  transition: 0.5s;
+}
+
+.page__footer a:hover {
+  color: #f04242;
+  text-decoration-line: underline;
+}
+
 .page__footer__link h4,
 .footer-page-group2 h6 {
   font-family: Arial;
@@ -93,7 +102,14 @@
   border-radius: 5px;
   background-color: #fff;
   padding: 13px 16px;
-  margin-bottom: 24px;
+}
+
+.input-search button {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
 }
 
 #search {

@@ -87,9 +87,7 @@
 .lists__link {
   display: flex;
   align-items: start;
-  /* background-image: url(../images/oppo.jpg); */
   background-repeat: no-repeat;
-
   gap: 18px;
 }
 

@@ -68,6 +68,7 @@ const Footer = () => {
       image: img4,
     },
   ];
+
   return (
     <div className="footer">
       <div className="container">
@@ -96,12 +97,15 @@ const Footer = () => {
             <h6>Subscribe Our Newsletter</h6>
             <div className="input-search">
               <input
-                type="search"
+                type="text"
                 name="search"
                 id="search"
                 placeholder="Search here..."
+                required
               />
-              <img src={telegram} alt="telegram" />
+              <button type="reset">
+                <img src={telegram} alt="telegram" />
+              </button>
             </div>
             <div className="social-media-links">
               {/* {socialLinks?.map((item) => item)} */}

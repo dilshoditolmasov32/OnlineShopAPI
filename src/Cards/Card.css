@@ -14,8 +14,13 @@
   border-radius: 10px;
   background-image: url(../images/card2.svg);
   padding-bottom: 28px;
+  transition: 0.5s;
 }
 
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
 .card h4 {
   width: 240px;
   height: 100px;
@@ -42,4 +47,12 @@
   font-weight: 700;
   line-height: 15.6px;
   text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card:hover .card-btn {
+  background-color: #fff;
+  color: #f53e32;
+  font-size: 18px;
 }
